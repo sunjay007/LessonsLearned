@@ -1,4 +1,5 @@
 · Nodejs let you run Javascript programs by typing ‘node my_app.js’ in your terminal
 · The JS is executed by V8 Javascript Engine
-· Node provide a Javascript API to access the #network and file system
+· Node provide a Javascript API to access the network and file system
 
+low response time & high concurrency
