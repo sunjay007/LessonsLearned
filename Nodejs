@@ -3,3 +3,24 @@
 · Node provide a Javascript API to access the network and file system
 
 low response time & high concurrency
+
+use 
+  require() 
+to include a module, codes in module are defaultly private
+
+use 
+  exports. 
+to expose any piece of code you want
+NPM, node package manager, use 
+  npm install module_name 
+to install new module
+
+using http module
+var http =  require("http");
+http.createServer(function(request, response){}).listen(8888)
+
+install mysql module to access mysql database
+  npm install mysql@2.0.0-alpha2
+everything after @ is the version number
+
+
