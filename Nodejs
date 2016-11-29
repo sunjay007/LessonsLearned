@@ -8,16 +8,23 @@ use
   require() 
 to include a module, codes in module are defaultly private
 
+判断是否是程序的入口文件有两种方式:
+  require.main === module（推荐）
+  module.parent === null
+
 use 
   exports. 
 to expose any piece of code you want
-NPM, node package manager, use 
+
+npm, node package manager, use 
   npm install module_name 
 to install new module
 
 using http module
-var http =  require("http");
-http.createServer(function(request, response){}).listen(8888)
+  var http =  require("http");
+  http.createServer(function(request, response){
+    //do something
+  }).listen(8888)
 
 install mysql module to access mysql database
   npm install mysql@2.0.0-alpha2
