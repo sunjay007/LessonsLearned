@@ -1,0 +1,6 @@
+-use n or nvm for the node version contrl
+ 
+ 
+-use nrm to manage the npm source location
+  nrm ls: list the available npm sources
+  nrm use ***: change the current npm source
